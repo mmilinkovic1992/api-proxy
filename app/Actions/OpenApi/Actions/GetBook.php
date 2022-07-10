@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Actions\OpenApi;
+namespace App\Actions\OpenApi\Actions;
 
 use App\Actions\OpenApi\DataTransferObjects\FormatDto;
 use Illuminate\Support\Facades\Http;

@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Actions\OpenApi\GetBook;
+use App\Actions\OpenApi\Actions\GetBook;
 use App\Actions\OpenApi\Resources\BookResource;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
 
 class BookController extends Controller
 {
